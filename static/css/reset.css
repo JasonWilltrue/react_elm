@@ -1,6 +1,6 @@
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
- * http: //cssreset.com
+ * http:   //cssreset.com
  */
 
 html,
@@ -143,4 +143,25 @@ body {
 	background-color: #f4f4f4;
 	font-weight     : 200;
 	font-family     : 'PingFang SC', 'STHeitiSC-Light', 'Arial, Helvetica, sans-serif';
+}
+/* 媒介控制 */
+@media screen and (max-width: 321px) {
+	html,
+	body {
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 400px) {
+	html,
+	body {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	html,
+	body {
+		font-size: 18px;
+	}
 }
