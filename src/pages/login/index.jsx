@@ -6,7 +6,9 @@ class Login extends Component {
 		return (
 			<div className={styles.login}>
 				<div className={styles.logo}>
-					<SvgIcon name="#logo" />
+					饿了嘛登录
+					{/* <SvgIcon name="#logo" /> */}
+					<image src={require('../../assets/svg/logo.svg')} />
 				</div>
 				<div className={styles.form}>
 					<div className={styles.item}>
