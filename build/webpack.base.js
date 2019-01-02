@@ -37,6 +37,7 @@ module.exports = {
 				include: path.resolve(__dirname, '../src'),
 			},
 			{
+				//在webpack.base.conf.js加入处理svg的loader
 				test   : /\.svg$/,
 				loader : 'svg-sprite-loader',
 				include: path.resolve(__dirname, '../src/assets/svg'),

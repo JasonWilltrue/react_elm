@@ -6,8 +6,8 @@ import styles from './index.less';
 const SvgIcon = ({ name, className, onClick = () => {} }) => {
 	const clsName = className ? cls(styles['icon-svg'], className) : styles['icon-svg'];
 	return (
-		<svg className={clsName} aria-hidden="false" onClick={onClick}>
-			<use xlinkHref={require('../../assets/svg/logo.svg')} />
+		<svg className={clsName} aria-hidden="true" onClick={onClick}>
+			<use xlinkHref={name} />
 		</svg>
 	);
 };
